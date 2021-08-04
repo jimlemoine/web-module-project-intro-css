@@ -50,7 +50,7 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 section{
@@ -70,28 +70,32 @@ nav{
 nav a{
     display: inline-block;
     padding: 1% 0;
-    width: 10%;
+    width: 15%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
+    font-size:2rem;
 }
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .blue{
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 10%;
 }
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 /*Top section styles*/
 
 .top{
-    position: relative;
+    /*position: relative;*/
+    width: 95%;
+    margin: 0 auto;
+    font-size:2rem;
 }
 
 .left, .right{
@@ -103,30 +107,64 @@ nav a{
     width: 35%;
 }
 .left img{
-    width:80%;
+    width:65%;
     border-radius:50%;
 }
 
 .right{
     width:60%;
-    position: absolute;
-    top: 45%;
+    /* position: absolute; */
+    /* top: 10%; */
+}
+.top .right h2{
+    margin: 3% 0;
+}
+.top .right p {
+    width: 65%;
+    margin: 6% auto;
 }
 
 /*Main section styles*/
 .valley {
+    width: 95%;
+    margin: 0 auto;
     background-color: #DDB9A3;
+    color: #fff;
+    padding: 0 3%;
+    font-size: 2rem;
+    text-align: center;
+}
+.valley p{
+    margin: 2% 0;
 }
 
-
 /*Fire and Fee section styles*/
-.fire, .fee {
+.firefee{
+    width:25%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.firefee div{
+    margin-top: 0;
+    margin-bottom: 20%;
+}
+.firefeepics{
+    width: 50%;
+
+}
+span {
     font-weight: bold;
 }
 
 
 /*Bottom image style*/
-
+.horizon {
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    height: 400px;
+}
 /*Footer style*/
 footer {
     background-color: #F9E7DC;
