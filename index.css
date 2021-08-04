@@ -15,14 +15,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
 caption, th, td {
 	font-weight: normal;
 	text-align: left;
@@ -34,6 +26,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+
 /*universal selector styles*/
 *{
     box-sizing: border-box;
@@ -46,16 +39,18 @@ blockquote, q {
 /*General styles*/
 html{
     font-size:62.5%;
-    line-height:1.5;
-    color:#4f4f4f; /*accessibility*/
 }
 
 body{
-
+    font-size: 1.6rem;
+    line-height:1.5;
+    color:#4f4f4f; /*accessibility*/
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1{
     font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
 
 section{
@@ -64,6 +59,7 @@ section{
 
 a{
     text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /*Header Section Styles*/
@@ -82,7 +78,7 @@ nav a{
 .orange{
     background-color: #FF764E;
     margin-left: 10%;
-
+}
 .blue{
     background-color: #5ED3EB;
     margin: 0 24%;
@@ -93,6 +89,7 @@ nav a{
 }
 
 /*Top section styles*/
+
 .top{
     position: relative;
 }
@@ -116,3 +113,21 @@ nav a{
     top: 45%;
 }
 
+/*Main section styles*/
+.valley {
+    background-color: #DDB9A3;
+}
+
+
+/*Fire and Fee section styles*/
+.fire, .fee {
+    font-weight: bold;
+}
+
+
+/*Bottom image style*/
+
+/*Footer style*/
+footer {
+    background-color: #F9E7DC;
+}
