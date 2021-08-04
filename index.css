@@ -71,10 +71,11 @@ nav a{
     display: inline-block;
     padding: 1% 0;
     width: 15%;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     color: #fff;
-    font-size:2rem;
+    font-size:2.4rem;
+    line-height: 1.2;
 }
 .orange{
     background-color: #FF764E;
@@ -93,9 +94,8 @@ nav a{
 
 .top{
     /*position: relative;*/
-    width: 95%;
-    margin: 0 auto;
-    font-size:2rem;
+    padding: 2%;
+    font-size:2.4rem;
 }
 
 .left, .right{
@@ -107,8 +107,8 @@ nav a{
     width: 35%;
 }
 .left img{
-    width:65%;
-    border-radius:50%;
+    width: 70%;
+     border-radius:50%;
 }
 
 .right{
@@ -126,12 +126,12 @@ nav a{
 
 /*Main section styles*/
 .valley {
-    width: 95%;
+    width: 92%;
     margin: 0 auto;
     background-color: #DDB9A3;
     color: #fff;
-    padding: 0 3%;
-    font-size: 2rem;
+    padding: 0 2%;
+    font-size: 2.4rem;
     text-align: center;
 }
 .valley p{
@@ -143,7 +143,7 @@ nav a{
     width:25%;
     margin: 0 auto;
     text-align: center;
-    padding: 2% 0;
+    padding: 2%;
 }
 
 .firefee div{
@@ -151,7 +151,7 @@ nav a{
     margin-bottom: 20%;
 }
 .firefeepics{
-    width: 50%;
+    width: 45%;
 
 }
 span {
